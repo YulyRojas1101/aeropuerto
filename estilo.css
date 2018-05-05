@@ -1,3 +1,14 @@
 body{
   margin: 20px;
 }
+
+navbar[name^=menuprincipal]{
+  padding: 10px 0px 10px 0px;
+}
+#menuprincipal a {
+  text-decoration: none;
+  color: green;
+    }
+#menuprincipal a:hover {
+  text-decoration: underline;
+}
