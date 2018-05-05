@@ -12,3 +12,16 @@ navbar[name^=menuprincipal]{
 #menuprincipal a:hover {
   text-decoration: underline;
 }
+#menuprincipal a + a::before{
+  content: "|";
+  color: black;
+}
+footer {
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
+Tabla{
+  border-collapse: collapse;
+}
